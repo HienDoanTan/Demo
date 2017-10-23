@@ -33,5 +33,13 @@ namespace Demo.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        /// <summary>
+        /// Test push git
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Test()
+        {
+            return View();
+        }
     }
 }

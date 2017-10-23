@@ -40,6 +40,7 @@ namespace Demo.Controllers
         public ActionResult Test()
         {
             return View();
+
         }
 
     }
